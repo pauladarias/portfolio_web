@@ -10,16 +10,17 @@ body {
 }
 
 .site-hero {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(images/bg-green.png);
-  background-repeat: no-repeat;
+  /* width: 100vw;
+  height: 100vh; */
+  max-height: 600px;
+  background-image: url(../images/bg-gradient.png);
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  background-position: center, center;
+  background-position: center center;
 }
 
 .container-nav {
-  background: #f8f8f8;
+  background: 0;
   min-height: 100px;
   max-height: 120px;
   margin: 0;
@@ -41,7 +42,7 @@ ul {
   max-width: 50%;
   margin: 1em;
   align-items: right;
-  margin-top: 3em;
+  margin-top: 4em;
   margin-left: 9em;
 }
 
@@ -51,18 +52,116 @@ ul {
   font-size: 1rem;
   font-weight: bold;
   margin: 0.75em;
+  letter-spacing: 1px;
 }
 
 .link-nav:hover,
 .link-nav:focus {
-  color: #1792d2;
+  color: #8cd0f5;
 }
 .container-nav a img {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 45%;
+  max-height: 45%;
   border-radius: 50%;
-  margin: 1.5em 1.5em;
+  margin: 2.5em 2em;
   cursor: pointer;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.description {
+  margin-top: 12em;
+}
+h1,
+h1 + .span2 {
+  color: #45b29a;
+  text-align: center;
+  line-height: 1.3em;
+  margin-top: 3em;
+}
+.span1 {
+  font-family: Stalemate;
+  font-size: 3.4em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: normal;
+}
+
+.span2 {
+  font-family: "Lato", sans-serif;
+  font-size: 0.6em;
+  margin-top: 0;
+  padding-top: 0;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.bird {
+  max-width: 20%;
+  max-height: 20%;
+  margin-top: 1.25em;
+}
+
+.bird2 {
+  max-width: 10%;
+  max-height: 10%;
+}
+.rocket {
+  max-width: 10%;
+  max-height: 10%;
+  margin-left: 4em;
+}
+
+.description ul li {
+  max-width: 500px;
+  margin-bottom: 5em;
+}
+
+.description ul li .desc-img {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 50%;
+  margin-bottom: 0;
+  padding-top: 0;
+  box-shadow: inset 0px 0px 40px 40px white;
+}
+
+.description ul li h2 {
+  color: #35b886;
+  font-size: 1.7rem;
+  margin-top: 0.5em;
+}
+
+.description ul li p {
+}
+
+footer {
+  background: #45b29a;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
+}
+
+footer * {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link-footer {
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: #8cd0f5;
+
+  transform: scale(1.1);
 }
 
 @media (min-width: 600px) {
@@ -73,6 +172,10 @@ ul {
 
   .link-nav {
     font-size: 1.2rem;
+  }
+
+  .container-nav a img {
+    margin: 2em 5.5em;
   }
 }
 
