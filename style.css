@@ -12,7 +12,7 @@ body {
 .site-hero {
   /* width: 100vw;
   height: 100vh; */
-  max-height: 600px;
+  max-height: 550px;
   background-image: url(../images/bg-green-plus-objects.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -74,7 +74,7 @@ ul {
   text-align: center;
 }
 .description {
-  margin-top: 12em;
+  margin-top: 8em;
   padding-top: 9em;
   color: grey;
 }
@@ -120,7 +120,7 @@ h1 + .span2 {
 
 .description ul li {
   max-width: 500px;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .description ul li .desc-img {
@@ -135,8 +135,8 @@ h1 + .span2 {
 
 .me-coding {
   /* box-shadow: 10px 10px 8px #888888; */
-  border-radius: 50%;
-  max-width: 40%;
+  margin-top: 0;
+  max-width: 30%;
   height: 170px;
 }
 
@@ -159,31 +159,44 @@ h1 + .span2 {
 
 .makers-link {
   text-decoration: none;
-  color: darkgreen;
+  color: #35b886;
   cursor: pointer;
 }
 
 .makers-link:hover,
 .portfolio-link:hover {
-  color: maroon;
+  color: #8cd0f5;
 }
 
-.second-paragraph {
-  background-color: honeydew;
-  padding: 1em;
+.dots {
+  max-width: 20%;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+.me-laptops,
+.all-logos {
+  border-radius: none;
+  max-width: 35%;
+  margin-bottom: 1.2em;
 }
 
 .portfolio-link {
   text-decoration: none;
-  color: darkgreen;
+  color: #35b886;
   cursor: pointer;
 }
-.envelope {
+.before-footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.envelope {
   opacity: 0.1;
   max-width: 20%;
+  margin: 0 auto;
+  /* margin-left: 3em; */
 }
 .cta-contact {
   text-decoration: none;
@@ -196,6 +209,10 @@ h1 + .span2 {
   letter-spacing: 1px;
   transform: scale(1);
   transition: transform 250ms;
+}
+
+.cta-contact * {
+  opacity: 0.6;
 }
 
 .cta-contact:hover {
@@ -212,6 +229,7 @@ footer * {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .link-footer {

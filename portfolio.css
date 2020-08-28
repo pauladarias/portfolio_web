@@ -75,6 +75,7 @@ ul {
 }
 .description {
   margin-top: 12em;
+  color: grey;
 }
 h1,
 h1 + .span2 {
@@ -156,7 +157,9 @@ h1 + .span2 {
 }
 
 footer {
+  width: 100%;
   background: #45b29a;
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 3em 0;
@@ -166,7 +169,9 @@ footer * {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  opacity: 0.6;
 }
+
 .link-footer {
   transform: scale(1);
   transition: transform 250ms;
