@@ -253,19 +253,21 @@ footer * {
   }
   .nav-ul {
     /* margin-right: 9em; */
-    margin: 5em 9em;
+    margin: 6em 9em;
   }
 
-  .nav-link {
-    font-size: 1.2;
+  .link-nav {
+    font-size: 1.2em;
   }
   h1,
   h1 + .span2 .link-nav {
-    margin-top: em;
+    margin-top: 5em;
   }
 
   .container-nav a img {
     margin: 4em 9em;
+    max-width: 55%;
+    max-height: 55%;
   }
 }
 
@@ -305,6 +307,7 @@ footer * {
   .container-nav a img {
     margin: 4em 9em;
   }
+
   .span1 {
     padding-top: 8em;
   }
