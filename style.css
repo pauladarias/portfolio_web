@@ -12,7 +12,7 @@ body {
 .site-hero {
   /* width: 100vw;
   height: 100vh; */
-  max-height: 550px;
+  max-height: 100vh;
   background-image: url(../images/bg-green-plus-objects.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -74,7 +74,7 @@ ul {
   text-align: center;
 }
 .description {
-  margin-top: 8em;
+  margin-top: 20em;
   padding-top: 9em;
   color: grey;
 }
@@ -152,6 +152,7 @@ h1 + .span2 {
 .description ul li p {
   padding: 0.3em 3em;
   /* line-height: 1.3em; */
+  font-size: 1.2em;
   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 0;
@@ -165,7 +166,7 @@ h1 + .span2 {
 
 .makers-link:hover,
 .portfolio-link:hover {
-  color: #8cd0f5;
+  color: #1ca3ec;
 }
 
 .dots {
@@ -198,13 +199,14 @@ h1 + .span2 {
   margin: 0 auto;
   /* margin-left: 3em; */
 }
+
 .cta-contact {
   text-decoration: none;
   background-color: #45b29a;
   color: whitesmoke;
   font-size: 1.2em;
   font-weight: bold;
-  padding: 0.5em 8em;
+  padding: 0.5em 1em;
   cursor: pointer;
   letter-spacing: 1px;
   transform: scale(1);
@@ -222,6 +224,7 @@ footer {
   background: #45b29a;
   color: white;
   text-align: center;
+  font-size: 1.2em;
   padding: 3em 0;
 }
 
@@ -245,21 +248,66 @@ footer * {
 }
 
 @media (min-width: 600px) {
+  body {
+    display: flex;
+  }
   .nav-ul {
-    width: 60%;
-    margin-right: 3em;
+    /* margin-right: 9em; */
+    margin: 5em 9em;
   }
 
-  .link-nav {
-    font-size: 1.2rem;
+  .nav-link {
+    font-size: 1.2;
+  }
+  h1,
+  h1 + .span2 .link-nav {
+    margin-top: em;
   }
 
   .container-nav a img {
-    margin: 2em 5.5em;
+    margin: 4em 9em;
   }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1200px) {
+  body {
+    display: flex;
+  }
+
+  .site-hero {
+    max-height: 100vh;
+    padding-bottom: 5em;
+  }
+  .description {
+    margin-top: 25em;
+  }
+
+  .left-description,
+  .right-description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .second-paragraph,
+  .fourth-paragraph {
+    margin-top: 7em;
+  }
+  .span1 {
+    font-size: 4em;
+  }
+  .cta-contact {
+    padding: 0.5em 2em;
+  }
+  .envelope {
+    max-width: 10%;
+  }
+
+  .container-nav a img {
+    margin: 4em 9em;
+  }
+  .span1 {
+    padding-top: 8em;
+  }
 }
 
 /* html,

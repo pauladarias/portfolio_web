@@ -76,7 +76,9 @@ ul {
 .description {
   margin-top: 12em;
   color: grey;
+  font-size: 1.2em;
 }
+
 h1,
 h1 + .span2 {
   color: #45b29a;
@@ -102,8 +104,8 @@ h1 + .span2 {
 }
 
 .description ul li {
-  max-width: 400px;
-  margin-bottom: 3em;
+  max-width: 700px;
+  margin-bottom: 5em;
 }
 
 .me-laptops {
@@ -116,13 +118,24 @@ h1 + .span2 {
 
 .description ul li h2 {
   color: #35b886;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin-top: 1.3em;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .description ul li p {
   letter-spacing: 1px;
+}
+
+.git-portfolio-link {
+  text-decoration: none;
+  color: #35b886;
+  cursor: pointer;
+}
+
+.git-portfolio-link:hover {
+  color: #8cd0f5;
 }
 .all-projects {
   display: flex;
@@ -130,9 +143,37 @@ h1 + .span2 {
   align-items: center;
   text-align: center;
 }
+.blue p {
+  margin-bottom: 3em;
+}
 
+.blue .view-on-github {
+  background-color: #c75936;
+}
+
+.red .view-on-github {
+  background-color: #3b5999;
+}
+
+.red p {
+  margin-bottom: 3em;
+}
+.view-on-github {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: whitesmoke;
+  padding: 0.7em 3em;
+  border-radius: 3px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.view-on-github:hover {
+  transform: scale(1.1);
+}
 .blue {
-  background-color: #35b886;
+  background-color: #f3766b;
   padding: 3em;
   color: white;
 }
@@ -145,7 +186,7 @@ h1 + .span2 {
 }
 
 .red {
-  background-color: #f76160;
+  background-color: #ffdb63;
   padding: 3em;
   color: white;
 }
@@ -182,4 +223,36 @@ footer * {
   color: #8cd0f5;
 
   transform: scale(1.1);
+}
+
+@media (min-width: 600px) {
+  .site-hero {
+  }
+}
+
+@media (min-width: 900px) {
+  .site-hero {
+    min-height: 100vh;
+    padding-bottom: 4em;
+  }
+  .span1 {
+    font-size: 4em;
+    padding-top: 6em;
+  }
+  .me-laptops {
+    max-width: 90%;
+  }
+
+  .description {
+    margin-top: 27em;
+  }
+
+  .description ul li {
+    margin-top: 4em;
+    max-width: 300px;
+    margin-bottom: 5em;
+  }
+
+  .description ul li p {
+  }
 }
