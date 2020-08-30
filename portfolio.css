@@ -10,10 +10,10 @@ body {
 }
 
 .site-hero {
-  /* width: 100vw;
-  height: 100vh; */
-  max-height: 400px;
-  background-image: url(../images/bg-green-empty.png);
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(../images/bg-green-portfolio.png);
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center center;
@@ -63,7 +63,7 @@ ul {
   max-width: 45%;
   max-height: 45%;
   border-radius: 50%;
-  margin: 2.5em 2em;
+  margin: 3.5em 3em;
   cursor: pointer;
 }
 
@@ -82,13 +82,15 @@ ul {
 h1,
 h1 + .span2 {
   color: #45b29a;
+  padding-top: 2em;;
   text-align: center;
   line-height: 1.3em;
   margin-top: 3em;
 }
 .span1 {
   font-family: Stalemate;
-  font-size: 3em;
+  font-size: 3.5em;
+  
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: normal;
@@ -111,8 +113,9 @@ h1 + .span2 {
 .me-laptops {
   max-width: 40%;
   max-height: 90%;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 2em;
+  margin-left: 5em;;
+  margin-top: 6em;;
   box-shadow: inset 0px 0px 40px 40px white;
 }
 
@@ -120,12 +123,15 @@ h1 + .span2 {
   color: #35b886;
   font-size: 1.7rem;
   margin-top: 1.3em;
+  margin-left: 2.5em;;
   letter-spacing: 1px;
   margin-bottom: 0;
 }
 
 .description ul li p {
   letter-spacing: 1px;
+  margin-left: 2.5em;;
+  margin-bottom: 3em;
 }
 
 .git-portfolio-link {
@@ -142,8 +148,14 @@ h1 + .span2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+}
+
+.project1-img {
+  margin-top: 3em;
 }
 .blue p {
+
   margin-bottom: 3em;
 }
 
@@ -227,6 +239,26 @@ footer * {
 
 @media (min-width: 600px) {
   .site-hero {
+    min-height: 100vh;
+    padding-bottom: 4em;
+  }
+  
+  .nav-ul {
+    /* margin-right: 9em; */
+    margin: 6em 9em;
+  }
+
+  .link-nav {
+    font-size: 1.2em;
+  }
+  h1,
+  h1 + .span2 .link-nav {
+    margin-top: 5em;
+  }
+  .container-nav a img {
+    margin: 4em 9em;
+    max-width: 55%;
+    max-height: 55%;
   }
 }
 
