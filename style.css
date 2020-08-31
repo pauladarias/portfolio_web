@@ -139,7 +139,6 @@ h1 + .span2 {
   /* box-shadow: 10px 10px 8px #888888; */
   margin-top: 0;
   max-width: 30%;
-  height: 170px;
 }
 
 .description ul li h2 {
@@ -204,7 +203,7 @@ h1 + .span2 {
   position: absolute;
   display: flex;
   justify-content: center;
-  /* margin-left: 6.5em; */
+  margin-left: 10em;
   text-decoration: none;
   background-color: #45b29a;
   border-radius: 2px;
