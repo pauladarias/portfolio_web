@@ -197,6 +197,7 @@ h1 + .span2 {
   opacity: 0.1;
   max-width: 20%;
   margin: 0 auto;
+  margin-bottom: 1em;
   /* margin-left: 3em; */
 }
 
@@ -204,10 +205,12 @@ h1 + .span2 {
   background-color: #45b29a;
   border-color: #45b29a;
   border-style: none;
+  border-radius: none;
   color: rgb(233, 233, 233);
   padding: 1em 3em;
   font-size: 1em;
-
+  font-weight: bold;
+  text-decoration: none;
   letter-spacing: 1px;
   cursor: pointer;
   transform: scale(1);
