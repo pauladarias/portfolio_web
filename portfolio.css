@@ -105,8 +105,11 @@ h1 + .span2 {
   text-align: center;
 }
 
+.description {
+}
+
 .description ul li {
-  max-width: 700px;
+  max-width: 100%;
   margin-bottom: 2em;
 }
 
@@ -121,7 +124,7 @@ h1 + .span2 {
   color: #35b886;
   font-size: 1.7rem;
   letter-spacing: 1px;
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .description ul li p {
@@ -148,13 +151,21 @@ h1 + .span2 {
 
 .project1-img {
   margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.subtitle {
+  padding-top: 0;
 }
 .blue p {
-  margin-bottom: 3em;
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .blue .view-on-github {
-  background-color: #c75936;
+  background-color: #db611a;
 }
 
 .red .view-on-github {
@@ -180,6 +191,7 @@ h1 + .span2 {
 }
 .blue {
   background-color: #f3766b;
+
   padding: 3em;
   color: white;
 }
@@ -197,12 +209,28 @@ h1 + .span2 {
   color: white;
 }
 
+.red p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .purple {
-  background-color: cadetblue;
+  background-color: rgb(103, 197, 201);
   padding: 3em;
   color: white;
 }
 
+.purple p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.purple .view-on-github {
+  background-color: #262a33;
+}
 footer {
   width: 100%;
   background: #45b29a;
