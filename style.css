@@ -205,8 +205,8 @@ h1 + .span2 {
   border-color: #45b29a;
   border-style: none;
   color: rgb(233, 233, 233);
-  padding: 1em 3.3em;
-  font-size: 1.2em;
+  padding: 1em 3em;
+  font-size: 1em;
 
   letter-spacing: 1px;
   cursor: pointer;
@@ -224,7 +224,7 @@ h1 + .span2 {
   justify-content: center;
   margin: 0 0 0 3em;
   /* margin-left: 1.5em; */
-  text-decoration: none;
+/* text-decoration: none;
   background-color: #45b29a;
   border-radius: 2px;
   color: whitesmoke;
@@ -243,7 +243,8 @@ h1 + .span2 {
 
 .cta-contact:hover {
   transform: scale(1.1);
-} */
+}  */
+
 footer {
   background: #45b29a;
   color: white;
