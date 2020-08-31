@@ -203,7 +203,8 @@ h1 + .span2 {
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-left: 1.5em;
+  margin: 0 auto;
+  /* margin-left: 1.5em; */
   text-decoration: none;
   background-color: #45b29a;
   border-radius: 2px;
