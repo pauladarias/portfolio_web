@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  position: sticky;
 }
 
 body {
@@ -308,7 +309,7 @@ footer * {
     font-size: 4em;
   }
   .cta-contact {
-    margin-left: 0 0 0 7em;
+    margin-left: 20em;
   }
   .envelope {
     max-width: 10%;
