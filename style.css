@@ -218,6 +218,7 @@ h1 + .span2 {
 }
 
 .contact-me-button:hover {
+  color: #a9defa;
   transform: scale(1.1);
 }
 
