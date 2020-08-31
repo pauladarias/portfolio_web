@@ -130,8 +130,8 @@ h1 + .span2 {
 
 .description ul li p {
   letter-spacing: 1px;
-  padding: 0 3em 3em;
-  margin-bottom: 1em;
+  padding: 0 3em;
+  margin-bottom: 0.5em;
 }
 
 .git-portfolio-link {
@@ -151,7 +151,7 @@ h1 + .span2 {
 }
 
 .project1-img {
-  margin-top: 3em;
+  margin-top: 1em;
   margin-bottom: 1.5em;
 }
 
@@ -173,9 +173,6 @@ h1 + .span2 {
   background-color: #3b5999;
 }
 
-/* .red p {
-  margin-bottom: 3em;
-} */
 .view-on-github {
   text-decoration: none;
   font-size: 0.9em;
@@ -267,7 +264,6 @@ footer * {
   }
 
   .nav-ul {
-    /* margin-right: 9em; */
     margin: 6em 9em;
   }
 
@@ -283,11 +279,6 @@ footer * {
     max-width: 55%;
     max-height: 55%;
   }
-
-  /* .all-projects p {
-    max-width: 500px;
-    text-align: center;
-  } */
 }
 
 @media (min-width: 900px) {
