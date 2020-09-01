@@ -198,7 +198,6 @@ h1 + .span2 {
   max-width: 20%;
   margin: 0 auto;
   margin-bottom: 0.5em;
-  /* margin-left: 3em; */
 }
 
 .contact-me-button {
@@ -207,18 +206,19 @@ h1 + .span2 {
   border-style: none;
   border-radius: none;
   color: rgb(233, 233, 233);
-  padding: 0.5em 3em;
+  margin: 0 6em;
+  /* max-width: 300px; */
+  padding: 0.5em 0.5em;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
   cursor: pointer;
   transform: scale(1);
-  transition: transform 250ms;
+  transition: transform 350ms;
 }
 
 .contact-me-button:hover {
-  color: #a9defa;
   transform: scale(1.1);
 }
 
@@ -273,7 +273,10 @@ footer * {
     max-height: 55%;
   }
   .description {
-    margin-top: 12em;
+    margin-top: 20em;
+  }
+  .contact-me-button {
+    margin: 0 20em;
   }
 }
 
