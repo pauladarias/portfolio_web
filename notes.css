@@ -4,6 +4,17 @@ body {
   padding: 0;
   background-image: url(../images/bg-green-portfolio.png);
   background-size: cover;
+  animation: fade-in 1.5s ease-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 40%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .container {
@@ -11,6 +22,8 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 3em;
+  animation: fade-in 1.5s ease-out;
+  animation-fill-mode: both;
 }
 
 /* <p>This a simplified version of pac-man using Javacript, CSS and HTML.</p> */

@@ -17,6 +17,17 @@ body {
   background-image: url(../images/bg-green-plus-objects.png);
   background-size: cover;
   background-position: center center;
+  animation: fade-in 1.5s ease-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 40%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .container-nav {
@@ -86,6 +97,8 @@ h1 + .span2 {
   text-align: center;
   line-height: 1.3em;
   margin-top: 3em;
+  animation: fade-in 1s ease-out 0.5s;
+  animation-fill-mode: both;
 }
 .span1 {
   font-family: Stalemate;
@@ -118,6 +131,8 @@ h1 + .span2 {
   max-width: 10%;
   max-height: 10%;
   margin-left: 4em;
+  animation: fade-in 1s ease-out 3s;
+  animation-fill-mode: both;
 }
 
 .description ul li {
