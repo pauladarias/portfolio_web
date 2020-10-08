@@ -295,7 +295,7 @@ footer * {
   }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 900px) {
   body {
     display: flex;
   }
