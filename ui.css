@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  position: sticky;
 }
 
 body {
@@ -11,10 +11,11 @@ body {
 }
 
 .site-hero {
-  /* width: 100vw;
-  height: 100vh; */
-  max-height: 100vh;
-  background-image: url(../images/bg-green-plus-objects.png);
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(../images/bg-green-portfolio.png);
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center center;
   animation: fade-in 0.5s ease-in-out;
@@ -29,7 +30,6 @@ body {
     opacity: 100%;
   }
 }
-
 .container-nav {
   background: 0;
   min-height: 100px;
@@ -85,15 +85,15 @@ ul {
   text-align: center;
 }
 .description {
-  margin-top: 20em;
-  padding-top: 9em;
+  margin-top: 12em;
   color: grey;
+  font-size: 1.2em;
 }
+
 h1,
 h1 + .span2 {
   color: #45b29a;
   padding-top: 2em;
-
   text-align: center;
   line-height: 1.3em;
   margin-top: 3em;
@@ -102,7 +102,8 @@ h1 + .span2 {
 }
 .span1 {
   font-family: Stalemate;
-  font-size: 3.4em;
+  font-size: 3.5em;
+
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: normal;
@@ -115,141 +116,139 @@ h1 + .span2 {
   padding-top: 0;
   letter-spacing: 0.1em;
   text-align: center;
-  line-height: 0.3em;
-  bottom: 0;
 }
 
 .span3 {
-  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
 }
-
-.bird {
-  max-width: 20%;
-  max-height: 20%;
-  margin-top: 1.25em;
-}
-
-.bird2 {
-  max-width: 10%;
-  max-height: 10%;
-}
-.rocket {
-  max-width: 10%;
-  max-height: 10%;
-  margin-left: 4em;
-  animation: fade-in 1s ease-out 3s;
-  animation-fill-mode: both;
-}
-
 .description ul li {
-  max-width: 500px;
-  margin-bottom: 3em;
+  max-width: 100%;
+  margin-bottom: 2em;
 }
 
-.description ul li .desc-img {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 50%;
-  margin-bottom: 0;
-  padding-top: 0;
-}
-
-.description {
-  margin-top: 10em;
-}
-
-.me-coding {
-  margin-top: 0;
-  max-width: 30%;
+.me-laptops {
+  max-width: 40%;
+  max-height: 90%;
+  margin-top: 8em;
+  box-shadow: inset 0px 0px 40px 40px white;
 }
 
 .description ul li h2 {
   color: #35b886;
   font-size: 1.7rem;
-  margin-top: 0.5em;
-  margin-bottom: 0;
-  padding: 0 3em;
   letter-spacing: 1px;
+  padding-bottom: 0;
 }
 
 .description ul li p {
-  padding: 0.3em 3em;
-  /* line-height: 1.3em; */
-  font-size: 1.2em;
   letter-spacing: 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.makers-link {
-  text-decoration: none;
-  color: #35b886;
-  cursor: pointer;
-}
-
-.makers-link:hover,
-.portfolio-link:hover {
-  color: #1ca3ec;
-}
-
-.dots {
-  max-width: 20%;
-  margin-top: 3em;
-  margin-bottom: 0;
-}
-
-.me-laptops,
-.all-logos {
-  border-radius: none;
-  max-width: 35%;
-  margin-bottom: 1.2em;
-}
-
-.portfolio-link {
-  text-decoration: none;
-  color: #35b886;
-  cursor: pointer;
-}
-
-.envelope {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  opacity: 0.1;
-  max-width: 20%;
-  margin: 0 auto;
+  padding: 0 3em 2em;
   margin-bottom: 0.5em;
 }
 
-.contact-me-button {
-  background-color: #45b29a;
-  border-color: #45b29a;
-  border-style: none;
-  border-radius: none;
-  color: rgb(233, 233, 233);
-  margin: 0 6em;
-  /* max-width: 300px; */
-  padding: 0.5em 0.5em;
-  font-size: 1em;
-  font-weight: bold;
+.git-portfolio-link {
   text-decoration: none;
-  letter-spacing: 1px;
+  color: #35b886;
+  cursor: pointer;
+}
+
+.git-portfolio-link:hover {
+  color: #8cd0f5;
+}
+.all-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project1-img {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.subtitle {
+  padding-top: 0;
+}
+.blue p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blue .view-on-github {
+  background-color: #db611a;
+}
+
+.red .view-on-github {
+  background-color: #3b5999;
+}
+
+.view-on-github {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: whitesmoke;
+  padding: 0.7em 3em;
+  border-radius: 3px;
   cursor: pointer;
   transform: scale(1);
-  transition: transform 350ms;
+  transition: transform 250ms;
 }
 
-.contact-me-button:hover {
+.view-on-github:hover {
   transform: scale(1.1);
 }
+.blue {
+  background-color: #f3766b;
 
+  padding: 3em;
+  color: white;
+}
+
+.project1-img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.red {
+  background-color: #f1ce5a;
+  padding: 3em;
+  color: white;
+}
+
+.red p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.purple {
+  background-color: rgb(103, 197, 201);
+  padding: 3em;
+  color: white;
+}
+
+.purple p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.purple .view-on-github {
+  background-color: #262a33;
+}
 footer {
+  width: 100%;
   background: #45b29a;
+  background-size: cover;
   color: white;
   text-align: center;
-  font-size: 1.2em;
   padding: 3em 0;
-  margin-top: 2em;
 }
 
 footer * {
@@ -272,11 +271,12 @@ footer * {
 }
 
 @media (min-width: 600px) {
-  body {
-    display: flex;
+  .site-hero {
+    min-height: 100vh;
+    padding-bottom: 4em;
   }
+
   .nav-ul {
-    /* margin-right: 9em; */
     margin: 6em 9em;
   }
 
@@ -287,58 +287,32 @@ footer * {
   h1 + .span2 .link-nav {
     margin-top: 5em;
   }
-
   .container-nav a img {
     margin: 4em 9em;
     max-width: 55%;
     max-height: 55%;
   }
-  .description {
-    margin-top: 20em;
-  }
-  .contact-me-button {
-    margin: 0 20em;
-  }
 }
 
 @media (min-width: 900px) {
-  body {
-    display: flex;
-  }
-
   .site-hero {
-    max-height: 100vh;
-    padding-bottom: 5em;
-  }
-  .description {
-    margin-top: 17em;
-  }
-
-  .left-description,
-  .right-description {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .second-paragraph,
-  .fourth-paragraph {
-    margin-top: 8em;
+    min-height: 100vh;
+    padding-bottom: 4em;
   }
   .span1 {
     font-size: 4em;
+    padding-top: 6em;
   }
-  .cta-contact {
-    margin-left: 19.5em;
-  }
-  .envelope {
-    max-width: 10%;
+  .me-laptops {
+    max-width: 90%;
   }
 
-  .container-nav a img {
-    margin: 4em 9em;
+  .description {
+    margin-top: 13em;
   }
-
-  .span1 {
-    padding-top: 8em;
+  .me-laptops {
+    max-width: 40%;
+    max-height: 90%;
+    margin-top: 12em;
   }
 }

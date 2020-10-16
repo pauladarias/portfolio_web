@@ -118,7 +118,9 @@ h1 + .span2 {
   text-align: center;
 }
 
-.description {
+.span3 {
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
 }
 
 .description ul li {
