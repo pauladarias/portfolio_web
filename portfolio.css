@@ -164,6 +164,38 @@ h1 + .span2 {
   text-align: center;
 }
 
+.games {
+  background-color: #70aacf;
+  padding: 3em;
+  color: rgb(255, 255, 255);
+}
+
+.games p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.games .view-on-github {
+  background-color: #3b52eb;
+}
+
+.pink {
+  background-color: #fdd3eb;
+  padding: 3em;
+  color: rgb(247, 247, 247);
+}
+
+.pink p {
+  margin-bottom: 10em;
+  padding-bottom: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.pink .view-on-github {
+  background-color: #848992;
+}
 .project1-img {
   margin-top: 1em;
   margin-bottom: 1.5em;
