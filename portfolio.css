@@ -181,6 +181,10 @@ h1 + .span2 {
   background-color: #3b52eb;
 }
 
+.games .view-on-github:hover {
+  background-color: #12183f;
+}
+
 .pink {
   background-color: #fdbee2;
   padding: 3em;
@@ -195,6 +199,10 @@ h1 + .span2 {
 }
 .pink .view-on-github {
   background-color: #848992;
+}
+
+.pink .view-on-github:hover {
+  background-color: #3d4044;
 }
 .project1-img {
   margin-top: 1em;
@@ -215,8 +223,16 @@ h1 + .span2 {
   background-color: #db611a;
 }
 
+.blue .view-on-github:hover {
+  background-color: #914011;
+}
+
 .red .view-on-github {
   background-color: #3b5999;
+}
+
+.red .view-on-github:hover {
+  background-color: #131e36;
 }
 
 .view-on-github {
@@ -275,6 +291,11 @@ h1 + .span2 {
 .purple .view-on-github {
   background-color: #262a33;
 }
+
+.purple .view-on-github:hover {
+  background-color: #158eb3;
+}
+
 footer {
   width: 100%;
   background: #45b29a;
