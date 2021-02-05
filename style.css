@@ -11,8 +11,6 @@ body {
 }
 
 .site-hero {
-  /* width: 100vw;
-  height: 100vh; */
   max-height: 100vh;
   background-image: url(../images/bg-green-plus-objects.png);
   background-size: cover;
@@ -249,6 +247,8 @@ h1 + .span2 {
   color: white;
   letter-spacing: 1px;
   border-radius: 2px;
+  transform: scale(1);
+  transition: transform 350ms;
 }
 
 .contact-me-button a {
