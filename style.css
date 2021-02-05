@@ -221,14 +221,14 @@ h1 + .span2 {
   margin-bottom: 0.5em;
 }
 
-.contact-me-button {
+/* .contact-me-button a {
   background-color: #45b29a;
   border-color: #45b29a;
+  border: none;
   border-style: none;
   border-radius: none;
   color: rgb(233, 233, 233);
   margin: 0 6em;
-  /* max-width: 300px; */
   padding: 0.5em 0.5em;
   font-size: 1em;
   font-weight: bold;
@@ -237,10 +237,23 @@ h1 + .span2 {
   cursor: pointer;
   transform: scale(1);
   transition: transform 350ms;
+  padding: 0.5em 3em;
+} */
+
+.contact-me-button {
+  background-color: #45b29a;
+  border-color: #45b29a;
+  border: none;
+  padding: 0.5em 3em;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 2px;
 }
 
 .contact-me-button:hover {
   transform: scale(1.1);
+  background-color: #33806e;
 }
 
 footer {
@@ -298,6 +311,20 @@ footer * {
   }
   .contact-me-button {
     margin: 0 20em;
+  }
+
+  .contact-me-button {
+    background-color: #45b29a;
+    border-color: #45b29a;
+    border: none;
+    padding: 0.5em 3em;
+  }
+
+  .contact-me-button a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 10px;
   }
 }
 
